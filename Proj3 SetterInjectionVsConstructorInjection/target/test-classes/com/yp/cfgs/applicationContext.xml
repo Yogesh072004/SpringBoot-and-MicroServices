@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        <bean id="emp" class="com.yp.comp.Employee">
+        <constructor-arg name="eno" value="152"/>
+        <constructor-arg name="ename" value="yogesh"/>
+        <constructor-arg name="billamt" value="545.4f"/>
+        
+        </bean>
+        
+        <bean  name="stu" class="com.yp.comp.Student">
+        <property name="roll" value="131"/>
+        <property name="name" value="mohan"/>
+        
+        
+        
+        </bean>
+
+</beans>
+    
