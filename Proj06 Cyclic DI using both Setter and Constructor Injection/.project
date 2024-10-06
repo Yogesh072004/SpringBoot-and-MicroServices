@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Proj02 using Strategy and Factory Pattern</name>
+	<name>Proj06 Cyclic DI using both Setter and Constructor Injection</name>
 	<comment></comment>
 	<projects>
 	</projects>
